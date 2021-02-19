@@ -80,6 +80,13 @@ class YSHSDK {
       })
     })
 	}
+
+	// 关闭当前webview
+	closeWebView () {
+		setWeHotel(() => {
+			WeSDK.closeWebView()
+		})
+	}
 }
 
 export default YSHSDK
